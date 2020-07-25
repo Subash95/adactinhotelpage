@@ -1,0 +1,522 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 22078831500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "verifying  the login details with valid and invalid credential",
+        "description": "",
+        "id": "verifying-the-adactin-details;verifying--the-login-details-with-valid-and-invalid-credential;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11201773100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on adactin",
+            "match": {
+              "location": "AdactinStepDefinition.user_is_on_adactin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3371134000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter \"subashmuthukumar\" and \"70C6R2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"subashmuthukumar\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"70C6R2\"",
+                  "offset": 34
+                }
+              ],
+              "location": "AdactinStepDefinition.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5193188500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinStepDefinition.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Func1"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "verifying the  search hotel with given details",
+        "description": "",
+        "id": "verifying-the-adactin-details;verifying-the--search-hotel-with-given-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 736500700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user should give the location\"Sydney\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 29
+                }
+              ],
+              "location": "AdactinStepDefinition.user_should_give_the_location(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 152144300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should give the hotel \"Hotel Creek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 27
+                }
+              ],
+              "location": "AdactinStepDefinition.user_should_give_the_hotel(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 178079700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should select the \"Standard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Standard\"",
+                  "offset": 23
+                }
+              ],
+              "location": "AdactinStepDefinition.user_should_select_the(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86361100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user should give the no of \"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 27
+                }
+              ],
+              "location": "AdactinStepDefinition.user_should_give_the_no_of(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134558300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should give the Checkin \"09/07/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"09/07/2020\"",
+                  "offset": 29
+                }
+              ],
+              "location": "AdactinStepDefinition.user_should_give_the_Checkin(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69254700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user  should give the Checkout  \"10/07/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10/07/2020\"",
+                  "offset": 32
+                }
+              ],
+              "location": "AdactinStepDefinition.user_should_give_the_Checkout(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80707000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user should give the no of adults \"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 34
+                }
+              ],
+              "location": "AdactinStepDefinition.user_should_give_the_no_of_adults(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 143978900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user should give the chidren\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 28
+                }
+              ],
+              "location": "AdactinStepDefinition.user_should_give_the_chidren(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1656160000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user click the search button",
+            "match": {
+              "location": "AdactinStepDefinition.user_click_the_search_button()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Func1"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "verify  the hotel name",
+        "description": "",
+        "id": "verifying-the-adactin-details;verify--the-hotel-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 432309800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User is on SearchHotel page",
+            "match": {
+              "location": "AdactinStepDefinition.user_is_on_SearchHotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1256802600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user should  click the conntinue button",
+            "match": {
+              "location": "AdactinStepDefinition.user_should_click_the_conntinue_button()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Func1"
+          },
+          {
+            "name": "@E2E"
+          }
+        ]
+      },
+      {
+        "line": 57,
+        "name": "",
+        "description": "    verify the book a hotel",
+        "id": "verifying-the-adactin-details;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5491806400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 163000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User is on book a hotel",
+            "match": {
+              "location": "AdactinStepDefinition.user_is_on_book_a_hotel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 435340000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user should  give the first \"Subash\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Subash\"",
+                  "offset": 28
+                }
+              ],
+              "location": "AdactinStepDefinition.user_should_give_the_first(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123474100,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user should give the last \"Kumar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kumar\"",
+                  "offset": 26
+                }
+              ],
+              "location": "AdactinStepDefinition.user_should_give_the_last(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 191053400,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user should give the billing \"Meenashipuram\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Meenashipuram\"",
+                  "offset": 29
+                }
+              ],
+              "location": "AdactinStepDefinition.user_should_give_the_billing(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 208379400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user should give the credit card \"5846231578964582\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5846231578964582\"",
+                  "offset": 33
+                }
+              ],
+              "location": "AdactinStepDefinition.user_should_give_the_credit_card(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 174520500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user should give the credit card type\"VISA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"VISA\"",
+                  "offset": 37
+                }
+              ],
+              "location": "AdactinStepDefinition.user_should_give_the_credit_card_type(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118731600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user should give the Expiry mon \"January\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"January\"",
+                  "offset": 32
+                }
+              ],
+              "location": "AdactinStepDefinition.user_should_give_the_Expiry_mon(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120477500,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user should give the Expiry Year \"2014\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2014\"",
+                  "offset": 33
+                }
+              ],
+              "location": "AdactinStepDefinition.user_should_give_the_Expiry_Year(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110179900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user should give the \"303\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"303\"",
+                  "offset": 21
+                }
+              ],
+              "location": "AdactinStepDefinition.user_should_give_the(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131743400,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user should click the booknow button",
+            "match": {
+              "location": "AdactinStepDefinition.user_should_click_the_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6221674700,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "verify the booking Order no",
+            "match": {
+              "location": "AdactinStepDefinition.verify_the_booking_Order_no()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Func1"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "verifying the adactin details",
+    "description": "",
+    "id": "verifying-the-adactin-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Adactin.feature",
+    "tags": [
+      {
+        "name": "@Func1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
