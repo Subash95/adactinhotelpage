@@ -15,7 +15,7 @@ public class HooksClass extends LibGlobal {
 		Date d = new Date();
 
 		System.out.println("Execution Starts :" + d);
-		getDriverCloud();
+		getDriver();
 		loadUrl("http://adactinhotelapp.com/index.php");
 
 
