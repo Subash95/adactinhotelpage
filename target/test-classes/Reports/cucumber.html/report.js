@@ -531,10 +531,8 @@ formatter.match({
   "location": "AdactinStepDefinition.verify_the_booking_Order_no()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.stepdefn.AdactinStepDefinition.verify_the_booking_Order_no(AdactinStepDefinition.java:171)\r\n\tat ✽.verify the booking Order no(src/test/resources/Features/Adactin.feature:53)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png");
 formatter.after({
   "status": "passed"
 });
